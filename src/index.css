@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Iner", sans-serif;
+}
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: 100vh;
+  min-height: 100vh;
+}
+.hit{
+  height: 200px;
+
+}
+h3{
+  margin: 10px 0;
+}
+
+h6{
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+p{
+  font-size: 14PX;
+  line-height: 21PX;
+  text-align: center;
+}
+.Card-container{
+  background-color: yellow;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.75);
+  padding-top: 30px;
+  width: 340px;
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+
+}
+.pro{
+  color: rgb(52, 253, 12);
+  background: rgb(20, 20, 13);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+.hit{
+  background-color: aliceblue;
+  border: 3px solid rgb(32, 32, 32);
+  border-radius: 50%;
+  padding: 7px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button.primary{
+  background-color: rgb(36, 69, 219);
+  border-radius: 3px;
+  color: white;
+  font-family: serif;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+button.primary.outline{
+  background-color: transparent;
+  color: black;
+}
+
+.skills{
+  text-align: left;
+  padding: 15px;
+  margin-top: 10px;
+}
+.skiilsul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li{
+  border: 1px solid rgb(14, 13, 13);
+  display: inline-block;
+  border-radius: 2px;
+  padding: 7px;
+  margin: 0 7px 7px 0;
+  font-size: 12px;
+}
+.prooffline{
+  color: rgb(238, 6, 122);
+  background: rgb(20, 20, 13);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+
+}
+.pronline{
+  color: rgb(3, 3, 3);
+  background: rgb(53, 236, 8);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+
+}
+.Card-container:hover{
+  background-color: rgb(68, 162, 224);
+  border-radius: 15px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.95);
+  padding-top: 80px;
+  transition: 0.2s;
+  width: 400px;
+  max-width: 100%;
+  text-align: center;
+}
